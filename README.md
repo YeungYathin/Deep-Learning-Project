@@ -58,7 +58,7 @@ If you find this project helpful or inspiring for your work, feel free to cite o
   author={Yang, Yixuan and Yang, Chengkun and Yu, Qinmeng and Lu, Kechao},
   year={2025},
   note={ECE 685D Final Project},
-  url={https://github.com/your-username/conditional-vae-text2image}
+  url={https://github.com/YeungYathin/Deep-Learning-Project}
 }
 ```
 
