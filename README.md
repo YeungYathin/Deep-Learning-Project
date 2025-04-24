@@ -53,10 +53,10 @@ We explore how integrating CLIP and CVAE can bridge the semantic gap between lan
 If you find this project helpful or inspiring for your work, feel free to cite our report or mention this GitHub:
 
 ```
-@misc{yang2025cvaeclip,
+@misc{yang2024cvaeclip,
   title={Text-to-Image Generation using Conditional VAEs and CLIP Embeddings},
   author={Yang, Yixuan and Yang, Chengkun and Yu, Qinmeng and Lu, Kechao},
-  year={2025},
+  year={2024},
   note={ECE 685D Final Project},
   url={https://github.com/YeungYathin/Deep-Learning-Project}
 }
