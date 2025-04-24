@@ -52,6 +52,7 @@ We explore how integrating CLIP and CVAE can bridge the semantic gap between lan
 ## Citation
 If you find this project helpful or inspiring for your work, feel free to cite our report or mention this GitHub:
 
+\```
 @misc{yang2025cvaeclip,
   title={Text-to-Image Generation using Conditional VAEs and CLIP Embeddings},
   author={Yang, Yixuan and Yang, Chengkun and Yu, Qinmeng and Lu, Kechao},
@@ -59,6 +60,7 @@ If you find this project helpful or inspiring for your work, feel free to cite o
   note={ECE 685D Final Project},
   url={https://github.com/your-username/conditional-vae-text2image}
 }
+\```
 
 ## Acknowledgements
 - CLIP by OpenAI
