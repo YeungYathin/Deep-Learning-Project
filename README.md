@@ -13,13 +13,6 @@ We explore how integrating CLIP and CVAE can bridge the semantic gap between lan
 
 ---
 
-## Project Structure
-
-. ├── clip_model/ # Pretrained CLIP model loader ├── short_text_model/ # MNIST model: one-hot label conditional CVAE ├── long_text_model/ # COCO model: CLIP-conditional CVAE ├── datasets/ # Dataset loaders and preprocessors ├── utils/ # Loss functions, training scripts, metrics ├── results/ # Generated and reconstructed images ├── report/ # Final project report (PDF) ├── requirements.txt └── README.md
-
-
----
-
 ## Model Architecture
 
 ### Short Text Model (FashionMNIST)
@@ -56,13 +49,19 @@ We explore how integrating CLIP and CVAE can bridge the semantic gap between lan
 - FID reduced from `326.7 → 295.4` during training
 - Performance sensitive to latent dimension and overfitting after 250 epochs
 
----
+## Citation
+If you find this project helpful or inspiring for your work, feel free to cite our report or mention this GitHub:
 
-## Installation
+@misc{yang2025cvaeclip,
+  title={Text-to-Image Generation using Conditional VAEs and CLIP Embeddings},
+  author={Yang, Yixuan and Yang, Chengkun and Yu, Qinmeng and Lu, Kechao},
+  year={2025},
+  note={ECE 685D Final Project},
+  url={https://github.com/your-username/conditional-vae-text2image}
+}
 
-Clone the repo and install dependencies:
-```bash
-git clone https://github.com/your-username/conditional-vae-text2image.git
-cd conditional-vae-text2image
-
-
+## Acknowledgements
+- CLIP by OpenAI
+- FashionMNIST by Zalando
+- COCO Dataset by Microsoft
+- Implemented with PyTorch
